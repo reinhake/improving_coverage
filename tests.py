@@ -36,7 +36,7 @@ class TestCase(unittest.TestCase):
     # that is: 9 < 10 and 5476 % 5 == 0
     def test6(self):
         self.assertFalse(contrived_func(74))
-        
+
     # Testing the third and first conditional to see if the first is
     # not satisfied but the third is
     # First: 150 is not less than 150
