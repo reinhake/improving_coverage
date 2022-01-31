@@ -16,16 +16,13 @@ class TestCase(unittest.TestCase):
         self.assertTrue(contrived_func(46))
 
     def test5(self):
-        self.assertFalse(contrived_func(50))
+        self.assertFalse(contrived_func(51))
 
     def test6(self):
         self.assertFalse(contrived_func(6))
 
     def test7(self):
         self.assertFalse(contrived_func(74))
-
-    def test8(self):
-        self.assertFalse(contrived_func(5))
 
 
 if __name__ == '__main__':
