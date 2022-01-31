@@ -7,7 +7,7 @@ class TestCase(unittest.TestCase):
         self.assertTrue(contrived_func(120))
 
     def test2(self):
-        self.assertFalse(contrived_func(0))
+        self.assertFalse(contrived_func(151))
 
     def test3(self):
         self.assertTrue(contrived_func(150))
@@ -16,7 +16,7 @@ class TestCase(unittest.TestCase):
         self.assertTrue(contrived_func(46))
 
     def test5(self):
-        self.assertFalse(contrived_func(51))
+        self.assertFalse(contrived_func(50))
 
     def test6(self):
         self.assertFalse(contrived_func(6))
